@@ -1,0 +1,113 @@
+body, h1, h2, h3, h4, p, a {
+  margin: 0;
+  font-size: 100%;
+  font-weight: normal;
+  text-align: center;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+h1{
+  font-size: 55px;
+  text-transform: uppercase;
+}
+
+h2{
+  font-size: 30px;
+  text-transform: uppercase;
+  padding: 10px;
+}
+
+h3{
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+p{
+  padding: 8px;
+  font-size: 30px;
+}
+
+.black_line{
+  background-color: #000;
+  height: 3vh;
+}
+
+.head{
+  background-image: url(https://pbs.twimg.com/media/EDIRP02W4AAdRQR.jpg:large);
+  background-color: rgba(0, 0, 0, 0.4);
+  height: 30vh;
+  color: #fff;
+}
+
+.overlay{
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  width: 100%;
+  padding-top: 100px;
+}
+
+.preview_img{
+  display: block;
+  margin: 5% auto;
+  margin-top: 0;
+  height: 40vh;
+  box-shadow: 4px 4px 4px #000;
+}
+
+.content{
+  background-color: #f0efc2;
+}
+
+.card_area{
+  width: 100%;
+  display: flex;
+  background-color: #fbfdd8;
+  justify-content: space-around;
+  flex-basis: 25%;
+  padding: 2vh;
+}
+
+.card{
+  background-color: #fff;
+  flex-basis: 30%;
+  justify-content: center;
+}
+
+.card_img{
+  width: 100%;
+  justify-content: center;
+}
+
+.html{
+  box-shadow: 4px 4px 5px rgba(250, 50, 50, .6);
+}
+
+.css{
+  box-shadow: 4px 4px 5px rgba(21, 114, 182, .6);
+}
+
+.js{
+  box-shadow: 4px 4px 5px rgba(223, 186, 19, .6);
+}
+
+.sql{
+  box-shadow: 4px 4px 5px rgba(0, 170, 235, .6);
+}
+
+.wp{
+  box-shadow: 4px 4px 5px rgba(33, 117, 154, .6);
+}
+
+.footer{
+  background-color: #000;
+  color: #fff;
+  padding: 30px;
+  text-align: right;
+}
